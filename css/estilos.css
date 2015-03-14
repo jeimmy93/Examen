@@ -1,0 +1,94 @@
+@font-face{
+	font-family:'fuente';
+	src: url('Fonts/Dynamo.ttf');
+}
+body{
+	background: url(../img/imagen.jpg)
+}
+
+h1{
+	font-family: 'fuente';
+	font-size: 90px;
+	color:pink;
+
+}
+h2{
+	font-family: 'fuente';
+	font-size: 50px;
+	color:blue;
+
+}
+
+.petalos
+{
+	width: 100px;
+	height: 100px;
+	box-shadow: 20px 10px 20px dotted black ;
+	border: dotted white;
+	
+}
+
+#uno
+{
+	left: 0;
+	border-radius: 50% 50% 0% 50%;
+	background-color: green;
+
+}
+
+#dos
+{
+	left: 100px;
+	border-radius: 50% 50% 50% 0%;
+	background-color: red;
+	
+}
+
+#tres
+{
+	left: 0;
+	top: 100px;
+	border-radius: 50% 0% 50% 50%;
+	background-color:yellow;
+	
+}
+
+#cuatro
+{
+	left: 100px;
+	top: 100px;
+	border-radius: 0% 50% 50% 50%;
+	background-color:blue ;
+	
+}
+
+.col
+{
+	float: left;
+	position: absolute;
+}
+
+.col2
+{
+	top: 100px;
+	float: left;
+	position: absolute;
+}
+
+#girar
+{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: auto;
+	margin-top: 60px;
+	transition: all 1s;
+	transform-origin:center;
+
+}
+
+#girar:hover{
+
+transform:rotate(1000deg);
+
+}
